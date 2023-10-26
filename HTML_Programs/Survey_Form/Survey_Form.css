@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(0, 0, 255, 0.54);
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.moblie-css{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 4px; 
+}
+textarea{
+    min-width: 26vw;
+    min-height: 5vh;
+}
+
+.button{
+    padding: 7px 18px;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+#submit{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#reset{
+    background-color: grey;
+    color : white;
+    cursor: pointer;
+}
+
+#male{
+    margin-left: 3vw;
+}
+
+#female {
+    margin-left: 3vw;
+}
+p{
+    margin: 10px 4px;
+}
+.gender-group{
+    margin: 10px 4px;
+}
+
+.label-list p{
+    margin: 12px 4px; 
+}
+
+select{
+    margin-left: 4px;
+    padding: 2px 47px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.428);
+    border-radius: 2px;
+}
+.form-container-main{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+}
